@@ -1,0 +1,1 @@
+return pointer, 指到char陣列
