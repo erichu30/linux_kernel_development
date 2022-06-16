@@ -22,7 +22,7 @@ asmlinkage long long sys_open_file_sizes(int _pid)
 		printk("%s[%d]\n", task->comm, task->pid);
 	
 		struct file ** f = task->files->fdt->fd;
-		//fd is a pointer to array of pointer to file object represented by struct file
+		//fd is a pointer point to array of pointer to file object represented by struct file
                 
 		int i = 0;
 		while(f[i]!=NULL){
