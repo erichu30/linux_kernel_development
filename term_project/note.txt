@@ -1,1 +1,4 @@
-return pointer, 指到char陣列
+return struct, element include
+1. array of int(pid)
+2. array of int(total_size_of_file_opened(pid))
+3. 
