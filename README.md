@@ -1,8 +1,10 @@
 # linux_kernel_development
 
-##### large file git push issue
 
-用 git log 察看紀錄，並用 git reset XXX 恢復到沒有 commit large file 那次
+
+## large file git push issue
+
+use ```git log``` to check the record and use ```git reset XXX``` to recover to the commit before submitting large file
 
 ```
 curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
